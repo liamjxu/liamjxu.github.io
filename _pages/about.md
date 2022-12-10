@@ -20,4 +20,4 @@ social: true  # includes social icons at the bottom of the page
 
 I am a senior year undergraduate student at [the University of Illinois at Urbana-Champaign](https://illinois.edu/), where I am fortunate to be advised by Prof. [Heng Ji](http://blender.cs.illinois.edu/hengji.html) at [Blender NLP Lab](http://blender.cs.illinois.edu/index.html). My research aims to improve machines' understanding of **the deep semantics contained in textual and semi-structured data**. I am also interested in the NLP applications in various real-world scenarios, including **Semantic Analytics** and **Semantic Parsing**.
 
-From 2021 to 2022, I worked as a full-time research intern at [DKI group, Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/), supervised by Dr. [Mengyu Zhou](zmy.io).
+From 2021 to 2022, I worked as a full-time research intern at [DKI group, Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/), supervised by Dr. [Mengyu Zhou](https://zmy.io).

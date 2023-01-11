@@ -17,7 +17,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-*I am actively seeking NLP research internship positions (able to work full-time until September 2023)! Shoot me an [email](mailto:jx17@illinois.edu) if you are interested.*
+*I am actively seeking NLP research internships! Shoot me an [email](mailto:jx17@illinois.edu) if you are interested. I am able to work full-time until September 2023.*
 
 I graduated from [the University of Illinois at Urbana-Champaign](https://illinois.edu/) with a B.Sc. in Computer Engineering (with [Highest Honors](https://ece.illinois.edu/academics/ugrad/honors-programs)) in December, 2022. Prior to graduation, I was fortunate to be advised by Prof. [Heng Ji](http://blender.cs.illinois.edu/hengji.html) at [Blender NLP Lab](http://blender.cs.illinois.edu/index.html). My research aims to improve machines' understanding of **the deep semantics contained in textual and semi-structured data**. I am also interested in the NLP applications in various real-world scenarios, including **Semantic Analytics** and **Semantic Parsing**.
 

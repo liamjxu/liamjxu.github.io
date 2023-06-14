@@ -17,7 +17,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-🌲 **\[Researchers\]** I'm actively seeking NLP research internships! Shoot me an [email](mailto:jx17@illinois.edu) if you need a new passionate NLP research intern. I already have my [Employment Authorization Document](https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students) ready and can start today!
+🍌 **\[Latest News\]** This summer (2023), I will embark on a new journey as an Applied Scientist Intern at [Alexa AI, Amazon](https://developer.amazon.com/en-US/alexa). Can't wait to see what lies ahead in my adventure as an Amazonian. GO BANANAS!
 
 I am an MSCS student at [Stanford University](https://cs.stanford.edu/), specialized in Natural Language Processing. I graduated from [the University of Illinois at Urbana-Champaign](https://illinois.edu/) in December, 2022 with a Bachelor of Science degree in Computer Engineering (with [Highest Honors](https://ece.illinois.edu/academics/ugrad/honors-programs)). As an undergraduate, I was fortunate to be advised by Prof. [Heng Ji](http://blender.cs.illinois.edu/hengji.html) at [Blender NLP Lab](http://blender.cs.illinois.edu/index.html). My research aims to improve NLP models' understanding of the deep semantics contained in textual and semi-structured data. I am also passionate about Augmented Language Models (ALM) related fields, such as Reasoning, Knowledge Patching, and Robust NLP.
 

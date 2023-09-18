@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-6-12 9:00:00-0700
+date: 2023-9-15 9:00:00-0700
 inline: true
 ---
 
-My internship at [Alexa AI, Amazon](https://developer.amazon.com/en-US/alexa/) began! :man_technologist:
+I have wrapped up my internship at [Alexa AI, Amazon](https://developer.amazon.com/en-US/alexa/)! A huge thanks to the APEX leadership and recruiters for an incredible summer. Onward! 👋🍌

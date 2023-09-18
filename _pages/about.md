@@ -17,7 +17,6 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-🍌 **\[Latest News\]** This summer (2023), I will embark on a new journey as an Applied Scientist Intern at [Alexa AI, Amazon](https://developer.amazon.com/en-US/alexa). Can't wait to see what lies ahead in my adventure as an Amazonian. GO BANANAS!
 
 I am an MSCS student at [Stanford University](https://cs.stanford.edu/), specialized in Natural Language Processing. I graduated from [the University of Illinois at Urbana-Champaign](https://illinois.edu/) in December, 2022 with a Bachelor of Science degree in Computer Engineering (with [Highest Honors](https://ece.illinois.edu/academics/ugrad/honors-programs)). As an undergraduate, I was fortunate to be advised by Prof. [Heng Ji](http://blender.cs.illinois.edu/hengji.html) and worked closely with Prof. [Tarek Abdelzaher](https://abdelzaher.cs.illinois.edu/). My research aims to improve NLP models on the deep semantics contained in textual and semi-structured data. I am also passionate about Augmented Language Models (ALM) related fields, such as Reasoning, Knowledge Patching, and Robust NLP.
 

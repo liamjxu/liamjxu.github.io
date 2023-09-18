@@ -37,6 +37,24 @@
 }
 
 
+@misc{han2023lmswitch,
+  title={LM-Switch: Lightweight Language Model Conditioning in Word Embedding Space}, 
+  author={Chi Han and Jialiang Xu and Manling Li and Yi Fung and Chenkai Sun and Nan Jiang and Tarek Abdelzaher and Heng Ji},
+  year={2023},
+  eprint={2305.12798},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  
+
+  selected = true,
+  abstract = {In recent years, large language models (LMs) have achieved remarkable progress across various natural language processing tasks. As pre-training and fine-tuning are costly and might negatively impact model performance, it is desired to efficiently adapt an existing model to different conditions such as styles, sentiments or narratives, when facing different audiences or scenarios. However, efficient adaptation of a language model to diverse conditions remains an open challenge. This work is inspired by the observation that text conditions are often associated with selection of certain words in a context. Therefore we introduce LM-Switch, a theoretically grounded, lightweight and simple method for generative language model conditioning. We begin by investigating the effect of conditions in Hidden Markov Models (HMMs), and establish a theoretical connection with language model. Our finding suggests that condition shifts in HMMs are associated with linear transformations in word embeddings. LM-Switch is then designed to deploy a learnable linear factor in the word embedding space for language model conditioning. We show that LM-Switch can model diverse tasks, and achieves comparable or better performance compared with state-of-the-art baselines in LM detoxification and generation control, despite requiring no more than 1% of parameters compared with baselines and little extra time overhead compared with base LMs. It is also able to learn from as few as a few sentences or one document. Moreover, a learned LM-Switch can be transferred to other LMs of different sizes, achieving a detoxification performance similar to the best baseline. We will make our code available to the research community following publication.},
+  arxiv = {2305.12798},
+  bibtex_show = true,
+  pdf = {https://arxiv.org/pdf/2305.12798.pdf},
+  abbr = {ArXiv}
+}
+
+
 @misc{https://doi.org/10.48550/arxiv.2212.02691,
   doi = {10.48550/ARXIV.2212.02691},  
   url = {https://arxiv.org/abs/2212.02691},  
@@ -53,5 +71,3 @@
   pdf = {https://arxiv.org/pdf/2212.02691.pdf},
   abbr = {ArXiv}
 }
-
-

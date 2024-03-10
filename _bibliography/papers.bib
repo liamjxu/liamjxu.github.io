@@ -7,6 +7,7 @@
   publisher = {arXiv},  
   year = {2022},  
   copyright = {arXiv.org perpetual, non-exclusive license},
+  
   selected = true,
   abstract = {Numerical Question Answering is the task of answering questions that require numerical capabilities. Previous works introduce general adversarial attacks to Numerical Question Answering, while not systematically exploring numerical capabilities specific to the topic. In this paper, we propose to conduct numerical capability diagnosis on a series of Numerical Question Answering systems and datasets. A series of numerical capabilities are highlighted, and corresponding dataset perturbations are designed. Empirical results indicate that existing systems are severely challenged by these perturbations. E.g., Graph2Tree experienced a 53.83% absolute accuracy drop against the ``Extra'' perturbation on ASDiv-a, and BART experienced 13.80% accuracy drop against the ``Language'' perturbation on the numerical subset of DROP. As a counteracting approach, we also investigate the effectiveness of applying perturbations as data augmentation to relieve systems' lack of robust numerical capabilities. With experiment analysis and empirical studies, it is demonstrated that Numerical Question Answering with robust numerical capabilities is still to a large extent an open question. We discuss future directions of Numerical Question Answering and summarize guidelines on future dataset collection and system design.},
   arxiv = {2211.07455},
@@ -48,8 +49,6 @@
 }
 
 
-
-
 @misc{han2023lmswitch,
   title={LM-Switch: Lightweight Language Model Conditioning in Word Embedding Space}, 
   author={Chi Han and Jialiang Xu and Manling Li and Yi Fung and Chenkai Sun and Nan Jiang and Tarek Abdelzaher and Heng Ji},
@@ -59,7 +58,7 @@
   primaryClass={cs.CL},
   
 
-  selected = true,
+  selected = false,
   abstract = {In recent years, large language models (LMs) have achieved remarkable progress across various natural language processing tasks. As pre-training and fine-tuning are costly and might negatively impact model performance, it is desired to efficiently adapt an existing model to different conditions such as styles, sentiments or narratives, when facing different audiences or scenarios. However, efficient adaptation of a language model to diverse conditions remains an open challenge. This work is inspired by the observation that text conditions are often associated with selection of certain words in a context. Therefore we introduce LM-Switch, a theoretically grounded, lightweight and simple method for generative language model conditioning. We begin by investigating the effect of conditions in Hidden Markov Models (HMMs), and establish a theoretical connection with language model. Our finding suggests that condition shifts in HMMs are associated with linear transformations in word embeddings. LM-Switch is then designed to deploy a learnable linear factor in the word embedding space for language model conditioning. We show that LM-Switch can model diverse tasks, and achieves comparable or better performance compared with state-of-the-art baselines in LM detoxification and generation control, despite requiring no more than 1% of parameters compared with baselines and little extra time overhead compared with base LMs. It is also able to learn from as few as a few sentences or one document. Moreover, a learned LM-Switch can be transferred to other LMs of different sizes, achieving a detoxification performance similar to the best baseline. We will make our code available to the research community following publication.},
   arxiv = {2305.12798},
   bibtex_show = true,
@@ -82,5 +81,42 @@
   arxiv = {2212.02691},
   bibtex_show = true,
   pdf = {https://arxiv.org/pdf/2212.02691.pdf},
+  abbr = {ArXiv}
+}
+
+@misc{liu2023suql,
+  title={SUQL: Conversational Search over Structured and Unstructured Data with Large Language Models}, 
+  author={Shicheng Liu and Jialiang Xu and Wesley Tjangnaka and Sina J. Semnani and Chen Jie Yu and Gui Dávid and Monica S. Lam},
+  year={2023},
+  eprint={2311.09818},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+
+
+  selected = true,
+  abstract = {Many knowledge sources consist of both structured information such as relational databases as well as unstructured free text. Building a conversational interface to such data sources is challenging.
+This paper introduces SUQL, Structured and Unstructured Query Language, the first formal executable representation that naturally covers compositions of structured and unstructured data queries. Specifically, it augments SQL with several free-text primitives to form a precise, succinct, and expressive representation. This paper also presents a conversational search agent based on large language models, including a few-shot contextual semantic parser for SUQL.
+To validate our approach, we introduce a dataset consisting of crowdsourced questions and conversations about real restaurants. Over 51% of the questions in the dataset require both structured and unstructured data, suggesting that it is a common phenomenon. We show that our few-shot conversational agent based on SUQL finds an entity satisfying all user requirements 89.3% of the time, compared to just 65.0% for a strong and commonly used baseline.
+},
+  arxiv = {2311.09818},
+  bibtex_show = true,
+  pdf = {https://arxiv.org/pdf/2311.09818.pdf},
+  abbr = {ArXiv}
+}
+
+@misc{han2023infopattern,
+  title={InfoPattern: Unveiling Information Propagation Patterns in Social Media}, 
+  author={Chi Han and Jialiang Xu and Manling Li and Hanning Zhang and Tarek Abdelzaher and Heng Ji},
+  year={2023},
+  eprint={2311.15642},
+  archivePrefix={arXiv},
+  primaryClass={cs.SI},
+
+  selected = false,
+  abstract = {Social media play a significant role in shaping public opinion and influencing ideological communities through information propagation. Our demo InfoPattern centers on the interplay between language and human ideology. The demo (Code: this https URL ) is capable of: (1) red teaming to simulate adversary responses from opposite ideology communities; (2) stance detection to identify the underlying political sentiments in each message; (3) information propagation graph discovery to reveal the evolution of claims across various communities over time. (Live Demo: this https URL )
+},
+  arxiv = {2311.15642},
+  bibtex_show = true,
+  pdf = {https://arxiv.org/pdf/2311.15642.pdf},
   abbr = {ArXiv}
 }

@@ -1,3 +1,21 @@
+@misc{liu2024suql,
+  title = {{SUQL}: Conversational Search over Structured and Unstructured Data with Large Language Models},
+  author = {Shicheng Liu and Jialiang Xu and Wesley Tjangnaka and Sina Semnani and Chen Jie Yu and Monica Lam},
+  year = {2024},
+  url = {https://openreview.net/forum?id=DoSQeeVlUO},
+
+  selected = true,
+  abstract = {Many knowledge sources consist of both structured information such as relational databases as well as unstructured free text. Building a conversational interface to such data sources is challenging.
+This paper introduces SUQL, Structured and Unstructured Query Language, the first formal executable representation that naturally covers compositions of structured and unstructured data queries. Specifically, it augments SQL with several free-text primitives to form a precise, succinct, and expressive representation. This paper also presents a conversational search agent based on large language models, including a few-shot contextual semantic parser for SUQL.
+To validate our approach, we introduce a dataset consisting of crowdsourced questions and conversations about real restaurants. Over 51% of the questions in the dataset require both structured and unstructured data, suggesting that it is a common phenomenon. We show that our few-shot conversational agent based on SUQL finds an entity satisfying all user requirements 89.3% of the time, compared to just 65.0% for a strong and commonly used baseline.
+},
+  arxiv = {2311.09818},
+  bibtex_show = true,
+  pdf = {https://arxiv.org/pdf/2311.09818.pdf},
+  abbr = {NAACL 2024},
+  acc_type = {Findings}
+}
+
 @misc{https://doi.org/10.48550/arxiv.2211.07455,
   doi = {10.48550/ARXIV.2211.07455},  
   url = {https://arxiv.org/abs/2211.07455},  
@@ -13,41 +31,10 @@
   arxiv = {2211.07455},
   bibtex_show = true,
   pdf = {https://arxiv.org/pdf/2211.07455.pdf},
-  code = {https://github.com/microsoft/NumberDiagnosis},
   poster = {poster.pdf},
   slides = {dnc_slides.pdf},
   abbr = {EMNLP 2022}
 }
-
-
-@inproceedings{he-etal-2023-anameta,
-    title = "{A}na{M}eta: A Table Understanding Dataset of Field Metadata Knowledge Shared by Multi-dimensional Data Analysis Tasks",
-    author = "He, Xinyi  and
-      Zhou, Mengyu  and
-      Zhou, Mingjie  and
-      Xu, Jialiang  and
-      Lv, Xiao  and
-      Li, Tianle  and
-      Shao, Yijia  and
-      Han, Shi  and
-      Yuan, Zejian  and
-      Zhang, Dongmei",
-    editor = "Rogers, Anna  and
-      Boyd-Graber, Jordan  and
-      Okazaki, Naoaki",
-    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
-    month = jul,
-    year = "2023",
-    address = "Toronto, Canada",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2023.findings-acl.604",
-    doi = "10.18653/v1/2023.findings-acl.604",
-    pages = "9471--9492",
-    abstract = "Tabular data analysis is performed everyday across various domains. It requires an accurate understanding of field semantics to correctly operate on table fields and find common patterns in daily analysis. In this paper, we introduce the AnaMeta dataset, a collection of 467k tables with derived supervision labels for four types of commonly used field metadata: measure/dimension dichotomy, common field roles, semantic field type, and default aggregation function. We evaluate a wide range of models for inferring metadata as the benchmark. We also propose a multi-encoder framework, called KDF, which improves the metadata understanding capability of tabular models by incorporating distribution and knowledge information. Furthermore, we propose four interfaces for incorporating field metadata into downstream analysis tasks.",
-    pdf = {https://arxiv.org/pdf/2209.00946.pdf},
-    abbr = {ACL 2023}
-}
-
 
 @misc{han2023lmswitch,
   title={LM-Switch: Lightweight Language Model Conditioning in Word Embedding Space}, 
@@ -66,6 +53,33 @@
   abbr = {ArXiv}
 }
 
+@misc{he-etal-2023-anameta,
+    title = "{A}na{M}eta: A Table Understanding Dataset of Field Metadata Knowledge Shared by Multi-dimensional Data Analysis Tasks",
+    author = "He, Xinyi  and
+      Zhou, Mengyu  and
+      Zhou, Mingjie  and
+      Xu, Jialiang  and
+      Lv, Xiao  and
+      Li, Tianle  and
+      Shao, Yijia  and
+      Han, Shi  and
+      Yuan, Zejian  and
+      Zhang, Dongmei",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.604",
+    doi = "10.18653/v1/2023.findings-acl.604",
+    pages = "9471--9492",
+    abstract = "Tabular data analysis is performed everyday across various domains. It requires an accurate understanding of field semantics to correctly operate on table fields and find common patterns in daily analysis. In this paper, we introduce the AnaMeta dataset, a collection of 467k tables with derived supervision labels for four types of commonly used field metadata: measure/dimension dichotomy, common field roles, semantic field type, and default aggregation function. We evaluate a wide range of models for inferring metadata as the benchmark. We also propose a multi-encoder framework, called KDF, which improves the metadata understanding capability of tabular models by incorporating distribution and knowledge information. Furthermore, we propose four interfaces for incorporating field metadata into downstream analysis tasks.",
+    pdf = {https://arxiv.org/pdf/2209.00946.pdf},
+    abbr = {ACL 2023},
+    acc_type = {Findings}
+}
 
 @misc{https://doi.org/10.48550/arxiv.2212.02691,
   doi = {10.48550/ARXIV.2212.02691},  
@@ -84,25 +98,7 @@
   abbr = {ArXiv}
 }
 
-@misc{liu2023suql,
-  title={SUQL: Conversational Search over Structured and Unstructured Data with Large Language Models}, 
-  author={Shicheng Liu and Jialiang Xu and Wesley Tjangnaka and Sina J. Semnani and Chen Jie Yu and Gui Dávid and Monica S. Lam},
-  year={2023},
-  eprint={2311.09818},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL},
 
-
-  selected = true,
-  abstract = {Many knowledge sources consist of both structured information such as relational databases as well as unstructured free text. Building a conversational interface to such data sources is challenging.
-This paper introduces SUQL, Structured and Unstructured Query Language, the first formal executable representation that naturally covers compositions of structured and unstructured data queries. Specifically, it augments SQL with several free-text primitives to form a precise, succinct, and expressive representation. This paper also presents a conversational search agent based on large language models, including a few-shot contextual semantic parser for SUQL.
-To validate our approach, we introduce a dataset consisting of crowdsourced questions and conversations about real restaurants. Over 51% of the questions in the dataset require both structured and unstructured data, suggesting that it is a common phenomenon. We show that our few-shot conversational agent based on SUQL finds an entity satisfying all user requirements 89.3% of the time, compared to just 65.0% for a strong and commonly used baseline.
-},
-  arxiv = {2311.09818},
-  bibtex_show = true,
-  pdf = {https://arxiv.org/pdf/2311.09818.pdf},
-  abbr = {ArXiv}
-}
 
 @misc{han2023infopattern,
   title={InfoPattern: Unveiling Information Propagation Patterns in Social Media}, 

@@ -19,6 +19,17 @@
           {%- else -%}
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
+          {%- if entry.acc_type -%}
+            {%- if site.data.venues[entry.acc_type] -%}
+              {%- assign venue_style = nil -%}
+              {%- if site.data.venues[entry.acc_type].color != blank -%}
+                {%- assign venue_style = site.data.venues[entry.acc_type].color | prepend: 'style="background-color:' | append: '"' -%}
+              {%- endif -%}
+              <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}>{{entry.acc_type}}</abbr>
+            {%- else -%}
+              <abbr class="badge">{{entry.acc_type}}</abbr>
+            {%- endif -%}
+          {%- endif -%}
         {%- endif -%}
         </div>
 

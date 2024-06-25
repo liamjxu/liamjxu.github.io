@@ -1,3 +1,53 @@
+@misc{xu2024reverse,
+  title={Reverse Image Retrieval Cues Parametric Memory in Multimodal LLMs}, 
+  author={Jialiang Xu and Michael Moor and Jure Leskovec},
+  year={2024},
+  eprint={2405.18740},
+  archivePrefix={arXiv},
+  primaryClass={id='cs.CL' full_name='Computation and Language' is_active=True alt_name='cmp-lg' in_archive='cs' is_general=False description='Covers natural language processing. Roughly includes material in ACM Subject Class I.2.7. Note that work on artificial languages (programming languages, logics, formal systems) that does not explicitly address natural-language issues broadly construed (natural-language processing, computational linguistics, speech, text retrieval, etc.) is not appropriate for this area.'},
+
+  selected = false,
+  abstract = {Despite impressive advances in recent multimodal large language models (MLLMs), state-of-the-art models such as from the GPT-4 suite still struggle with knowledge-intensive tasks. To address this, we consider Reverse Image Retrieval (RIR) augmented generation, a simple yet effective strategy to augment MLLMs with web-scale reverse image search results. RIR robustly improves knowledge-intensive visual question answering (VQA) of GPT-4V by 37-43%, GPT-4 Turbo by 25-27%, and GPT-4o by 18-20% in terms of open-ended VQA evaluation metrics. To our surprise, we discover that RIR helps the model to better access its own world knowledge. Concretely, our experiments suggest that RIR augmentation helps by providing further visual and textual cues without necessarily containing the direct answer to a query. In addition, we elucidate cases in which RIR can hurt performance and conduct a human evaluation. Finally, we find that the overall advantage of using RIR makes it difficult for an agent that can choose to use RIR to perform better than an approach where RIR is the default setting.},
+  arxiv = {2405.18740},
+  bibtex_show = true,
+  pdf = {https://arxiv.org/pdf/2405.18740},
+  abbr = {ArXiv},
+}
+
+
+@misc{han2024word,
+  title={Word Embeddings Are Steers for Language Models}, 
+  author={Chi Han and Jialiang Xu and Manling Li and Yi Fung and Chenkai Sun and Nan Jiang and Tarek Abdelzaher and Heng Ji},
+  year={2024},
+  eprint={2305.12798},
+  archivePrefix={arXiv},
+  primaryClass={id='cs.CL' full_name='Computation and Language' is_active=True alt_name='cmp-lg' in_archive='cs' is_general=False description='Covers natural language processing. Roughly includes material in ACM Subject Class I.2.7. Note that work on artificial languages (programming languages, logics, formal systems) that does not explicitly address natural-language issues broadly construed (natural-language processing, computational linguistics, speech, text retrieval, etc.) is not appropriate for this area.'},
+
+  selected = true,
+  abstract = {Language models (LMs) automatically learn word embeddings during pre-training on language corpora. Although word embeddings are usually interpreted as feature vectors for individual words, their roles in language model generation remain underexplored. In this work, we theoretically and empirically revisit output word embeddings and find that their linear transformations are equivalent to steering language model generation styles. We name such steers LM-Steers and find them existing in LMs of all sizes. It requires learning parameters equal to 0.2% of the original LMs' size for steering each style. On tasks such as language model detoxification and sentiment control, LM-Steers can achieve comparable or superior performance compared with state-of-the-art controlled generation methods while maintaining a better balance with generation quality. The learned LM-Steer serves as a lens in text styles: it reveals that word embeddings are interpretable when associated with language model generations and can highlight text spans that most indicate the style differences. An LM-Steer is transferrable between different language models by an explicit form calculation. One can also continuously steer LMs simply by scaling the LM-Steer or compose multiple LM-Steers by adding their transformations.},
+  arxiv = {2305.12798},
+  bibtex_show = true,
+  pdf = {https://arxiv.org/pdf/2305.12798},
+  abbr = {ACL 2024}
+}
+
+@misc{zhang2024spaghetti,
+  title={SPAGHETTI: Open-Domain Question Answering from Heterogeneous Data Sources with Retrieval and Semantic Parsing}, 
+  author={Heidi C. Zhang and Sina J. Semnani and Farhad Ghassemi and Jialiang Xu and Shicheng Liu and Monica S. Lam},
+  year={2024},
+  eprint={2406.00562},
+  archivePrefix={arXiv},
+  primaryClass={id='cs.CL' full_name='Computation and Language' is_active=True alt_name='cmp-lg' in_archive='cs' is_general=False description='Covers natural language processing. Roughly includes material in ACM Subject Class I.2.7. Note that work on artificial languages (programming languages, logics, formal systems) that does not explicitly address natural-language issues broadly construed (natural-language processing, computational linguistics, speech, text retrieval, etc.) is not appropriate for this area.'},
+
+  selected = false,
+  abstract = {We introduce SPAGHETTI: Semantic Parsing Augmented Generation for Hybrid English information from Text Tables and Infoboxes, a hybrid question-answering (QA) pipeline that utilizes information from heterogeneous knowledge sources, including knowledge base, text, tables, and infoboxes. Our LLM-augmented approach achieves state-of-the-art performance on the Compmix dataset, the most comprehensive heterogeneous open-domain QA dataset, with 56.5% exact match (EM) rate. More importantly, manual analysis on a sample of the dataset suggests that SPAGHETTI is more than 90% accurate, indicating that EM is no longer suitable for assessing the capabilities of QA systems today.},
+  arxiv = {2406.00562},
+  bibtex_show = true,
+  pdf = {https://arxiv.org/pdf/2406.00562},
+  abbr = {ACL 2024},
+  acc_type = {Findings}
+}
+
 @misc{liu2024suql,
   title = {{SUQL}: Conversational Search over Structured and Unstructured Data with Large Language Models},
   author = {Shicheng Liu and Jialiang Xu and Wesley Tjangnaka and Sina Semnani and Chen Jie Yu and Monica Lam},
@@ -36,22 +86,6 @@ To validate our approach, we introduce a dataset consisting of crowdsourced ques
   abbr = {EMNLP 2022}
 }
 
-@misc{han2023lmswitch,
-  title={LM-Switch: Lightweight Language Model Conditioning in Word Embedding Space}, 
-  author={Chi Han and Jialiang Xu and Manling Li and Yi Fung and Chenkai Sun and Nan Jiang and Tarek Abdelzaher and Heng Ji},
-  year={2023},
-  eprint={2305.12798},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL},
-  
-
-  selected = false,
-  abstract = {In recent years, large language models (LMs) have achieved remarkable progress across various natural language processing tasks. As pre-training and fine-tuning are costly and might negatively impact model performance, it is desired to efficiently adapt an existing model to different conditions such as styles, sentiments or narratives, when facing different audiences or scenarios. However, efficient adaptation of a language model to diverse conditions remains an open challenge. This work is inspired by the observation that text conditions are often associated with selection of certain words in a context. Therefore we introduce LM-Switch, a theoretically grounded, lightweight and simple method for generative language model conditioning. We begin by investigating the effect of conditions in Hidden Markov Models (HMMs), and establish a theoretical connection with language model. Our finding suggests that condition shifts in HMMs are associated with linear transformations in word embeddings. LM-Switch is then designed to deploy a learnable linear factor in the word embedding space for language model conditioning. We show that LM-Switch can model diverse tasks, and achieves comparable or better performance compared with state-of-the-art baselines in LM detoxification and generation control, despite requiring no more than 1% of parameters compared with baselines and little extra time overhead compared with base LMs. It is also able to learn from as few as a few sentences or one document. Moreover, a learned LM-Switch can be transferred to other LMs of different sizes, achieving a detoxification performance similar to the best baseline. We will make our code available to the research community following publication.},
-  arxiv = {2305.12798},
-  bibtex_show = true,
-  pdf = {https://arxiv.org/pdf/2305.12798.pdf},
-  abbr = {ArXiv}
-}
 
 @misc{he-etal-2023-anameta,
     title = "{A}na{M}eta: A Table Understanding Dataset of Field Metadata Knowledge Shared by Multi-dimensional Data Analysis Tasks",
@@ -75,10 +109,11 @@ To validate our approach, we introduce a dataset consisting of crowdsourced ques
     url = "https://aclanthology.org/2023.findings-acl.604",
     doi = "10.18653/v1/2023.findings-acl.604",
     pages = "9471--9492",
-    abstract = "Tabular data analysis is performed everyday across various domains. It requires an accurate understanding of field semantics to correctly operate on table fields and find common patterns in daily analysis. In this paper, we introduce the AnaMeta dataset, a collection of 467k tables with derived supervision labels for four types of commonly used field metadata: measure/dimension dichotomy, common field roles, semantic field type, and default aggregation function. We evaluate a wide range of models for inferring metadata as the benchmark. We also propose a multi-encoder framework, called KDF, which improves the metadata understanding capability of tabular models by incorporating distribution and knowledge information. Furthermore, we propose four interfaces for incorporating field metadata into downstream analysis tasks.",
+    abstract = {Tabular data analysis is performed everyday across various domains. It requires an accurate understanding of field semantics to correctly operate on table fields and find common patterns in daily analysis. In this paper, we introduce the AnaMeta dataset, a collection of 467k tables with derived supervision labels for four types of commonly used field metadata: measure/dimension dichotomy, common field roles, semantic field type, and default aggregation function. We evaluate a wide range of models for inferring metadata as the benchmark. We also propose a multi-encoder framework, called KDF, which improves the metadata understanding capability of tabular models by incorporating distribution and knowledge information. Furthermore, we propose four interfaces for incorporating field metadata into downstream analysis tasks.},
     pdf = {https://arxiv.org/pdf/2209.00946.pdf},
     abbr = {ACL 2023},
-    acc_type = {Findings}
+    acc_type = {Findings},
+    bibtex_show = true,
 }
 
 @misc{https://doi.org/10.48550/arxiv.2212.02691,
@@ -90,14 +125,13 @@ To validate our approach, we introduce a dataset consisting of crowdsourced ques
   publisher = {arXiv},  
   year = {2022},  
   copyright = {arXiv.org perpetual, non-exclusive license},
-  selected = true,
+  selected = false,
   abstract = {Transformers are widely used in NLP tasks. However, current approaches to leveraging transformers to understand language expose one weak spot: Number understanding. In some scenarios, numbers frequently occur, especially in semi-structured data like tables. But current approaches to rich-number tasks with transformer-based language models abandon or lose some of the numeracy information - e.g., breaking numbers into sub-word tokens - which leads to many number-related errors. In this paper, we propose the LUNA framework which improves the numerical reasoning and calculation capabilities of transformer-based language models. With the number plugin of NumTok and NumBed, LUNA represents each number as a whole to model input. With number pre-training, including regression loss and model distillation, LUNA bridges the gap between number and vocabulary embeddings. To the best of our knowledge, this is the first work that explicitly injects numeracy capability into language models using Number Plugins. Besides evaluating toy models on toy tasks, we evaluate LUNA on three large-scale transformer models (RoBERTa, BERT, TabBERT) over three different downstream tasks (TATQA, TabFact, CrediTrans), and observe the performances of language models are constantly improved by LUNA. The augmented models also improve the official baseline of TAT-QA (EM: 50.15 -> 59.58) and achieve SOTA performance on CrediTrans (F1 = 86.17).},
   arxiv = {2212.02691},
   bibtex_show = true,
   pdf = {https://arxiv.org/pdf/2212.02691.pdf},
   abbr = {ArXiv}
 }
-
 
 
 @misc{han2023infopattern,

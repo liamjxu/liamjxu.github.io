@@ -1,8 +1,12 @@
 "Findings":
   color: "#B4B4B8"
 
+"ACL 2024":
+  url: https://2024.aclweb.org//
+  color: "#DC3535"
+
 "NAACL 2024":
-  url: https://2022.emnlp.org/
+  url: https://2024.naacl.org/
   color: "#DC3535"
 
 "ACL 2023":

@@ -72,7 +72,7 @@
               {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
             {%- endif -%}
             {%- if author_is_self -%}
-              <em>{{author.first}} {{author.last}}</em>
+              <em><b>{{author.first}} {{author.last}}</b></em>
             {%- else -%}
               {%- if coauthor_url -%}
                 <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
@@ -115,6 +115,10 @@
           {%- endif -%}
 
           </div>
+
+          <!-- Awards, if any -->
+          {% if entry.award %}<div class="award" style="font-size: smaller; font-weight: 350; color:var(--global-theme-color)"><b>({{ entry.award }})</b></div>{% endif %}
+
 
           <!-- Journal/Book title and date -->
           {% assign proceedings = "inproceedings, incollection" | split: ','%}

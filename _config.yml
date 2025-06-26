@@ -164,7 +164,7 @@ collections:
     permalink: /publications/:path/
 
 news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-news_limit: # leave blank to include all the news in the `_news` folder
+news_limit: 10 # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -200,7 +200,6 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -315,6 +314,7 @@ filtered_bibtex_keywords:
   [
     abbr,
     abstract,
+    acc_type,
     additional_info,
     altmetric,
     annotation,

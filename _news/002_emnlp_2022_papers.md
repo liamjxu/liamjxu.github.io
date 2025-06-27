@@ -5,4 +5,3 @@ inline: true
 ---
 
 One paper [[1]](https://arxiv.org/abs/2211.07455) accepted to [EMNLP 2022](https://2022.emnlp.org/)! See you in Abu Dhabi! :tada:
-

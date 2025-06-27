@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a recent M.S. graduate in Computer Science from [Stanford University](https://cs.stanford.edu/), where I worked with [Prof. Percy Liang](https://cs.stanford.edu/~pliang/). 
+I am a recent M.S. graduate in Computer Science from [Stanford University](https://cs.stanford.edu/), where I worked with [Prof. Percy Liang](https://cs.stanford.edu/~pliang/).
 
 My research centers on large language models (LLMs), particularly, identifying model weaknesses [[1]](https://aclanthology.org/2022.emnlp-main.542.pdf)[[2]](https://aclanthology.org/2024.emnlp-main.1147.pdf)[[3]](https://arxiv.org/pdf/2405.18740), improving model capabilities [[1]](https://arxiv.org/pdf/2212.02691.pdf)[[2]](https://aclanthology.org/2024.acl-long.864.pdf), and building useful systems [[1]](https://arxiv.org/pdf/2311.09818.pdf)[[2]](https://arxiv.org/pdf/2406.00562)[[3]](https://aclanthology.org/2024.findings-emnlp.938.pdf). I am also a strong proponent for democratizing model evaluation. I contributed to the maintenance and extension of [HELM](https://github.com/stanford-crfm/helm), an open source Python framework for holistic, reproducible and transparent evaluation of foundation models. Most recently, I led the development of [HELM Capabilities](https://crfm.stanford.edu/2025/03/20/helm-capabilities.html), the latest flagship benchmark of the HELM suite.
 

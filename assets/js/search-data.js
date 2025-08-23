@@ -395,7 +395,7 @@ ninja.data = [{
           title: 'I have wrapped up my internship at Amazon Alexa! A huge thanks to...',
           description: "",
           section: "News",},{id: "news-one-paper-1-accepted-by-naacl-2024-this-is-my-first-research-project-at-stanford",
-          title: 'One paper[1] accepted by NAACL 2024! This is my first research project at...',
+          title: 'One paper [1] accepted by NAACL 2024! This is my first research project...',
           description: "",
           section: "News",},{id: "news-two-papers-1-2-accepted-by-acl-2024-see-you-in-bangkok",
           title: 'Two papers [1] [2] accepted by ACL 2024! See you in Bangkok! 📃...',

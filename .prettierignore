@@ -12,3 +12,4 @@ _sass/tabler-icons/*.scss
 _scripts/*
 citation_map/index.html
 gs/index.html
+assets/js/distillpub/**
